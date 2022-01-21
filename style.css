@@ -26,9 +26,9 @@
   background: #ff574a;
   text-align: center;
   padding: 40px 90px;
+  border-radius: 20px;
   color: #fff;
   position: relative;
-  border-radius: 20px;
 }
 .setting-icon {
   width: 25px;
@@ -90,4 +90,45 @@
 }
 .social-item a i {
   color: #fff;
+}
+@media (max-width: 767px) {
+  .profile-box {
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+  .profile-box h3 {
+    font-size: 16px;
+  }
+  .profile-box p{
+    font-size: 10px;
+  }
+  .profile-pic {
+    width: 90px;
+    margin-top: 60px;
+    padding: 4px;
+  }
+  .profile-box button {
+    padding: 4px 32px;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 12px;
+    box-shadow: 0 5px 5px rgba(244, 67, 54, 0.5);
+  }
+  .profile-bottom{
+    background: #fff;
+    color: #999;
+    padding: 10px 0;
+    margin-right: -20px;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+  }
+  .profile-bottom p{
+    margin-top: 10px;
+  }
+  .profile-bottom img{
+    width: 10px;
+  }
 }
